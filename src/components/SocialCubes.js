@@ -15,7 +15,7 @@ const SocialCubes = () => {
         </div>
       </a>
       <a
-        href="https://github.com/hanpham32"
+        href="https://www.linkedin.com/in/hansopham/"
         class="social-container linkedin"
         target="_blank"
       >
