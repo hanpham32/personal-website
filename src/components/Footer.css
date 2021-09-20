@@ -1,0 +1,18 @@
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color:#337ab7;
+}
+
+.footer-span {
+  letter-spacing: 0.2em;
+  color: #8b8c8d;
+}
+
+.footer:hover {
+    text-decoration: none;
+}

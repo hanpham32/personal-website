@@ -1,0 +1,65 @@
+.tag {
+  margin-top: 1em;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  margin-right: 0.5em;
+  border-radius: 20px;
+  letter-spacing: 1px;
+}
+
+.react {
+  background-color: white;
+  color: #6fd0f2;
+  border-color: #6fd0f2;
+  width: 80px;
+  border-style: solid;
+  border-width: 2px;
+}
+.react:before {
+  content: "React";
+}
+
+.django {
+  background-color: white;
+  color: #27aa78;
+  border-color: #27aa78;
+  width: 100px;
+  border-style: solid;
+  border-width: 2px;
+}
+.django:before {
+  content: "Django";
+}
+
+.python {
+  background-color: #1088cb;
+  color: #fecd3e;
+  width: 96px;
+}
+.python:before {
+  content: "Python";
+}
+
+.javascript {
+  color: #323330;
+  background-color: #EFDB50;
+  width: 90px;
+}
+.javascript:before {
+  content: "JS";
+}
+
+.postgresql {
+  color: #316193;
+  background-color: white;
+  width: 145px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #316193;
+}
+.postgresql:before {
+  content: "PostgreSQL";
+}
