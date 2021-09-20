@@ -10,7 +10,7 @@ export const items = [
     desc: "A personal website built from scratch with React serves as a portfolio website. Unfortunately, it is not mobile-friendly yet :/",
     tags: ["react"],
     demo: "",
-    source: "",
+    source: "https://github.com/hanpham32/personal-website",
   },
   {
     src: imgPomodoro,
