@@ -42,13 +42,17 @@ const About = () => {
           <div className="about-column">
             <p className="about-bio">
               I am an upcoming college freshman from the Seattle area. I either
-              spend my time exploring different restaurants in Seattle, or at my
-              computer learning various topics and creating different side
-              projects. My other hobbies include photography and basketball.
-              Check out my featured photos below! <br></br> Little background about me. I
-              was born and grew up in Vietnam up until I was 12, then I moved to
-              Seattle and have lived here ever since. Thanks for giving my
-              website a look :)
+              spend my time exploring different restaurants and coffee shops in
+              Seattle, or at my computer learning various topics and creating
+              different side projects. My interests are in software development
+              with machine learning integration. In addition, I love creating
+              tools that assist human productivity and efficiency.
+              <br></br> Little background about me. I was born and grew up in
+              Vietnam up until I was 12, then I moved to Seattle and have lived
+              here ever since. My other hobbies include photography and
+              basketball. Sometimes, when the season changes, I find myself
+              go on adventures with my lovely Fujifilm camera. <br></br>{" "}
+              Thanks for giving my website a look :)
             </p>
           </div>
         </div>
