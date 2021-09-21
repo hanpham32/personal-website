@@ -6,7 +6,7 @@ import TechStack from "./TechStack/TechStack";
 // import github icon
 import GITHUB from "../assets/github.png";
 
-const Project = ({ src, alt, desc, tags, demo, source }) => {
+const Project = ({ src, alt, desc, tags, demo, source, date }) => {
   console.log(tags);
   return (
     <div className="project-container">
@@ -21,10 +21,15 @@ const Project = ({ src, alt, desc, tags, demo, source }) => {
         </span>
         <div>
           <p className="project-desc">{desc}</p>
+          <p className="project-date-created">{date}</p>
         </div>
       </div>
       <div className="links">
-        <a href={demo} target="_blank" className={ demo==""? "hide" : "demo-button" }>
+        <a
+          href={demo}
+          target="_blank"
+          className={demo == "" ? "hide" : "demo-button"}
+        >
           <span>Demo</span>
         </a>
         <a href={source} target="_blank">

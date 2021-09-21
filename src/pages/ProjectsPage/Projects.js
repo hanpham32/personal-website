@@ -8,8 +8,7 @@ const projects = () => {
   return (
     <div className="container">
       <div className="projects">
-        {
-        items.map((item, key) => (
+        {items.map((item, key) => (
           <Project
             src={item.src}
             alt={item.alt}
@@ -17,6 +16,7 @@ const projects = () => {
             tags={item.tags}
             source={item.source}
             demo={item.demo}
+            date={item.date}
             key={key}
           />
         ))}

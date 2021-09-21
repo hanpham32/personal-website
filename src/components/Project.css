@@ -27,6 +27,13 @@ img {
     min-width: 370px;
 }
 
+.project-date-created {
+  font-size: small;
+  font-weight: lighter;
+  color: white;
+  font-style: italic;
+}
+
 .links {
   display: flex;
   justify-content: end;

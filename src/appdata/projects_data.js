@@ -7,10 +7,11 @@ export const items = [
   {
     src: imgHansWeb,
     alt: "hans-web-cover",
-    desc: "A personal website built from scratch with React, serves as a portfolio website. Unfortunately, it is not mobile-friendly yet :/",
+    desc: "A personal website built from scratch with React, serves as a portfolio. Unfortunately, it is not mobile-friendly yet :/",
     tags: ["react"],
     demo: "",
     source: "https://github.com/hanpham32/personal-website",
+    date: "Sep, 2021 - Present",
   },
   {
     src: imgPomodoro,
@@ -19,6 +20,7 @@ export const items = [
     tags: ["react"],
     demo: "https://hanpham32.github.io/pomodoro-react",
     source: "https://github.com/hanpham32/pomodoro-react",
+    date: "Sep, 2021",
   },
   {
     src: imgBlogApp,
@@ -27,6 +29,7 @@ export const items = [
     tags: ["django", "python", "postgresql"],
     demo: "https://hanwebblog.herokuapp.com/",
     source: "https://github.com/hanpham32/Blog-App",
+    date: "Aug, 2021",
   },
   {
     src: imgBasicCalc,
@@ -35,5 +38,6 @@ export const items = [
     tags: ["javascript"],
     demo: "https://hanpham32.github.io/basic-calculator-js/",
     source: "https://github.com/hanpham32/basic-calculator-js",
+    date: "Summer, 2018",
   }
 ];

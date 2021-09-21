@@ -47,12 +47,12 @@ const About = () => {
               different side projects. My interests are in software development
               with machine learning integration. In addition, I love creating
               tools that assist human productivity and efficiency.
-              <br></br> Little background about me. I was born and grew up in
-              Vietnam up until I was 12, then I moved to Seattle and have lived
-              here ever since. My other hobbies include photography and
-              basketball. Sometimes, when the season changes, I find myself
-              go on adventures with my lovely Fujifilm camera. <br></br>{" "}
-              Thanks for giving my website a look :)
+              <br></br> Little background about me. I'm half Vietnamese and
+              Chinese but I was born and grew up in Vietnam. When I was 12, I
+              moved to Seattle and have lived here ever since. My other hobbies
+              include photography and basketball. Sometimes, when the season
+              changes, I find myself go on adventures with my lovely Fujifilm
+              camera. <br></br> Thanks for giving my website a look :)
             </p>
           </div>
         </div>
