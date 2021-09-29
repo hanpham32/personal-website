@@ -25,9 +25,10 @@ export const items = [
   {
     src: imgBlogApp,
     alt: "blog-app-web-cover",
-    desc: "A Blog-app built with Django framework and deployed using Heroku. The website takes longer to load due to Heroku (the hosting service) puts the web app to sleep after an absent period of use. ",
+    // desc: "A Blog-app built with Django framework and deployed using Heroku. The website takes longer to load due to Heroku (the hosting service) puts the web app to sleep after an absent period of use. ",
+    desc: "Blog-site is currently under maintainance. Come back and check it out soon! :)",
     tags: ["django", "python", "postgresql"],
-    demo: "https://hanwebblog.herokuapp.com/",
+    demo: "",
     source: "https://github.com/hanpham32/Blog-App",
     date: "Aug, 2021",
   },
