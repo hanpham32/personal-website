@@ -16,7 +16,7 @@ export const items = [
   {
     src: imgPomodoro,
     alt: "pomodoro-web-cover",
-    desc: "A pomodoro clock that helps promote workflow and learning activities. Features include: switches background between sessions.",
+    desc: "A pomodoro clock designed with a minimalistic approach. Timer starts at 25 minute, then switches to a 5 minute for break time.",
     tags: ["react"],
     demo: "https://hanpham32.github.io/pomodoro-react",
     source: "https://github.com/hanpham32/pomodoro-react",
@@ -26,7 +26,7 @@ export const items = [
     src: imgBlogApp,
     alt: "blog-app-web-cover",
     // desc: "A Blog-app built with Django framework and deployed using Heroku. The website takes longer to load due to Heroku (the hosting service) puts the web app to sleep after an absent period of use. ",
-    desc: "Blog-site is currently under maintainance. Come back and check it out soon! :)",
+    desc: "A blog website built with Django framework. Django is responsible for handling posts management. Used PostgreSQL to store data on Heroku server.",
     tags: ["django", "python", "postgresql"],
     demo: "",
     source: "https://github.com/hanpham32/Blog-App",
