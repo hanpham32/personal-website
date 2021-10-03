@@ -28,7 +28,7 @@ export const items = [
     // desc: "A Blog-app built with Django framework and deployed using Heroku. The website takes longer to load due to Heroku (the hosting service) puts the web app to sleep after an absent period of use. ",
     desc: "A blog website built with Django framework. Django is responsible for handling posts management. Used PostgreSQL to store data on Heroku server.",
     tags: ["django", "python", "postgresql"],
-    demo: "",
+    demo: "https://hanwebblog.herokuapp.com/",
     source: "https://github.com/hanpham32/Blog-App",
     date: "Aug, 2021",
   },
