@@ -6,7 +6,7 @@ import "./Projects.css";
 import { items } from "../../appdata/projects_data.js";
 const projects = () => {
   return (
-    <div className="container">
+    <div className="projects-container">
       <div className="projects">
         {items.map((item, key) => (
           <Project

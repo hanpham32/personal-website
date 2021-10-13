@@ -7,6 +7,7 @@ import Projects from "./pages/ProjectsPage/Projects";
 import About from "./pages/AboutPage/About";
 import Footer from "./components/Footer";
 
+
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
