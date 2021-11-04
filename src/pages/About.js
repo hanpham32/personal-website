@@ -32,7 +32,7 @@ const About = () => {
         </div>
         <div className="lg:col-span-4">
           <p className="text-lightGrey text-xl">
-            I am an upcoming college freshman from the Seattle area. I either
+            I am a college freshman from the Seattle area. I either
             spend my time exploring different restaurants and coffee shops in
             Seattle, or at my computer learning various topics and creating
             different side projects. My interests are in software development

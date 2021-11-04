@@ -10,7 +10,7 @@ const Home = () => {
         <div className="w-4/5">
           <h1 className="text-milkyWhite text-xl lg:text-6xl font-semibold">Hey, I'm Han</h1>
           <p className="text-lightGrey lg:text-2xl lg:leading-relaxed">
-            Incoming college freshman from the University of Washington
+            College freshman from the University of Washington
             (Bothell). I spend my freetime to stumble on many interest-driven
             projects. Follow my works below!
           </p>
