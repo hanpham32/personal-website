@@ -7,7 +7,7 @@ export const items = [
   {
     src: imgHansWeb,
     alt: "hans-web-cover",
-    desc: "A personal website built from scratch with React, serves as a portfolio. Unfortunately, it is not mobile-friendly yet :/",
+    desc: "A personal web portfolio built from scratch with React",
     tags: ["react"],
     demo: "",
     source: "https://github.com/hanpham32/personal-website",
