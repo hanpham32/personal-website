@@ -3,10 +3,10 @@ import "./SocialCubes.css";
 
 const SocialCubes = () => {
   return (
-    <div>
+    <div className="flex mt-2 justify-center lg:flex-row">
       <a
         href="https://github.com/hanpham32"
-        class="social-container github"
+        className="social-container github"
         target="_blank"
       >
         <div className="social-cube">
@@ -16,7 +16,7 @@ const SocialCubes = () => {
       </a>
       <a
         href="https://www.linkedin.com/in/hansopham/"
-        class="social-container linkedin"
+        className="social-container linkedin"
         target="_blank"
       >
         <div className="social-cube">
