@@ -43,7 +43,7 @@ const About = () => {
             I am a college first year from the Seattle area. I either spend my
             time exploring new coffee shops in Seattle, or at my computer
             learning various topics and creating different side projects. My
-            interests are in software development, web design, and digital
+            interests are in software development, web design/development, and digital
             design. I am also interested in exploring the fields of blockchain
             technology and machine learning. Currently, I'm researching and
             exploring Natural Language Processing, with the main focus in Neural
