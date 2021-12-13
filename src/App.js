@@ -9,7 +9,6 @@ import Home from "./pages/Home.js";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import React, { useEffect, useState } from "react";
-
 function App() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -34,8 +33,8 @@ function App() {
     <Router>
       <div className="font- Poppins flex justify-center p-0">
         <div className="divide-y-2 divide-milkyWhite sm:w-7/12 w-full">
-          <Nav toggle={toggle} />
-          <Dropdown isOpen={isOpen} toggle={toggle} />
+            <Nav toggle={toggle} />
+            <Dropdown isOpen={isOpen} toggle={toggle} />
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/projects" component={Projects} />

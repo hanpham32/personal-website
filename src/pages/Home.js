@@ -3,21 +3,30 @@ import ProfilePic from "../assets/Pic_Squared.jpg";
 import SocialCubes from "../components/SocialCubes.js";
 import { Container, Row } from "react-bootstrap";
 
+import FadeIn from "react-fade-in/lib/FadeIn";
+
 const Home = () => {
   return (
     <Container className="xl:flex py-8 px-4">
       <Row className="flex justify-center">
         <div className="w-4/5">
-          <h1 className="text-milkyWhite text-xl lg:text-6xl font-semibold">
-            Hey, I'm Han
-          </h1>
-          <p className="text-lightGrey lg:text-2xl lg:leading-relaxed">
-            College first year from the University of Washington (Bothell). I
-            spend my freetime to stumble on many interest-driven projects.
-            Follow my works below!
-          </p>
+          <FadeIn>
+            <h1 className="text-milkyWhite text-xl lg:text-6xl font-semibold">
+              Hey, I'm Han
+            </h1>
+          </FadeIn>
+          <FadeIn delay={150}>
+            <p className="text-lightGrey lg:text-2xl lg:leading-relaxed">
+              College first year from the University of Washington (Bothell). I
+              spend my freetime to stumble on many interest-driven projects.
+              Follow my works below!
+            </p>
+          </FadeIn>
+
           <div className="xl:flex">
-            <SocialCubes className="mt-4" />
+            <FadeIn delay={250}>
+              <SocialCubes className="mt-4" />
+            </FadeIn>
           </div>
         </div>
       </Row>

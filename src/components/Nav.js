@@ -1,7 +1,6 @@
 import React from "react";
 import Pdf from "../assets/Han's Resume.pdf";
 import { Link } from "react-router-dom";
-import { Navbar, Container, Dropdown } from "react-bootstrap";
 
 const Nav = ({toggle}) => {
   return (
@@ -39,31 +38,6 @@ const Nav = ({toggle}) => {
         </a>
       </div>
     </nav>
-
-    // <div className="text-lightGrey text-2xl mt-20 mb-4">
-    //   <ul class="flex justify-center text-lightGrey list-none m-0 p-0">
-    //     <li className="mx-4">
-    //       <Link to="/" className="hover:underline focus:no-underline">
-    //         Home
-    //       </Link>
-    //     </li>
-    //     <li className="mx-4">
-    //       <Link to="/projects" className="hover:underline focus:no-underline">
-    //         Projects
-    //       </Link>
-    //     </li>
-    //     <li className="mx-4">
-    //       <Link to="/about" className="hover:underline focus:no-underline">
-    //         About
-    //       </Link>
-    //     </li>
-    //     <li className="mx-4">
-    //       <a className="hover:underline focus:no-underline" href={Pdf} target="_blank">
-    //         Resume
-    //       </a>
-    //     </li>
-    //   </ul>
-    // </div>
   );
 };
 

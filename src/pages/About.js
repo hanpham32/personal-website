@@ -6,6 +6,8 @@ import Photo from "../assets/Pic_Squared2.jpg";
 import GITHUB from "../assets/github.png";
 import LINKEDIN from "../assets/linkedin.png";
 
+import FadeIn from "react-fade-in/lib/FadeIn";
+
 const About = () => {
   return (
     <Container className="p-8">
@@ -39,21 +41,25 @@ const About = () => {
           </div>
         </div>
         <div className="lg:col-span-4">
-          <p className="text-lightGrey text-xl">
-            I am a college first year from the Seattle area. I either spend my
-            time exploring new coffee shops in Seattle, or at my computer
-            learning various topics and creating different side projects. My
-            interests are in software development, web design/development, and digital
-            design. I am also interested in exploring the fields of blockchain
-            technology and machine learning. Currently, I'm researching and
-            exploring Natural Language Processing, with the main focus in Neural
-            Machine Translation.
-            <br></br> Little background about me. I'm half Vietnamese and
-            Chinese but I was born and grew up in Vietnam. When I was 12, I
-            moved to Seattle and have lived here ever since. My other hobbies
-            include photography and basketball.<br></br> Thanks for giving my
-            website a look :)
-          </p>
+          <FadeIn delay={350}>
+            <p className="text-lightGrey text-xl">
+              I am a college first year from the Seattle area. You will often
+              find me exploring around Seattle area, shooting some hoops, or at
+              my computer researching AI or Blockchain. My interests are in
+              software development, web design/development, and digital art.
+              {/* Currently, I'm working on an NFT project,{" "}
+            <span className="text-urlLink underline">
+              <a href="cryptomegaleague.com" target="_blank">
+                Cryto Mega League
+              </a>
+            </span>
+            , that focuses on promoting the student communities within UW campus. */}
+              <br></br> Little background about me. I'm half Vietnamese and
+              Chinese but I was born and grew up in Vietnam. When I was 12, I
+              moved to Washington State and have lived here ever since.<br></br>{" "}
+              Thanks for giving my website a look :{")"}
+            </p>
+          </FadeIn>
         </div>
       </Row>
     </Container>
