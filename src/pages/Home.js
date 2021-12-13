@@ -12,7 +12,7 @@ const Home = () => {
         <div className="w-4/5">
           <FadeIn>
             <h1 className="text-milkyWhite text-xl lg:text-6xl font-semibold">
-              Hey, I'm Han
+              Hey world, I'm Han
             </h1>
           </FadeIn>
           <FadeIn delay={150}>
