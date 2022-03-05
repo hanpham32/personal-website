@@ -39,7 +39,7 @@ const About = () => {
                 className="w-8 h-8 mx-1 mb-2 transform hover:scale-110"
               ></img>
             </a>
-            <a href="https://www.linkedin.com/in/hansopham/" target="_blank">
+            <a href="https://twitter.com/hanpham32" target="_blank">
               <img
                 src={TWITTER}
                 alt="twitter-icon"
