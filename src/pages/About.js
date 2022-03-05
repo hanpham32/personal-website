@@ -5,6 +5,7 @@ import { Container, Row } from "react-bootstrap";
 import Photo from "../assets/Pic_Squared2.jpg";
 import GITHUB from "../assets/github.png";
 import LINKEDIN from "../assets/linkedin.png";
+import TWITTER from "../assets/twitter.png";
 
 import FadeIn from "react-fade-in/lib/FadeIn";
 
@@ -28,14 +29,21 @@ const About = () => {
               <img
                 src={GITHUB}
                 alt="github-icon"
-                className="w-8 h-8 mx-2 mb-2 transform hover:scale-110"
+                className="w-8 h-8 mx-1 mb-2 transform hover:scale-110"
               ></img>
             </a>
             <a href="https://www.linkedin.com/in/hansopham/" target="_blank">
               <img
                 src={LINKEDIN}
                 alt="linkedin-icon"
-                className="w-8 h-8 mx-2 mb-2 transform hover:scale-110"
+                className="w-8 h-8 mx-1 mb-2 transform hover:scale-110"
+              ></img>
+            </a>
+            <a href="https://www.linkedin.com/in/hansopham/" target="_blank">
+              <img
+                src={TWITTER}
+                alt="twitter-icon"
+                className="w-8 h-8 mx-1 mb-2 transform hover:scale-110"
               ></img>
             </a>
           </div>
@@ -44,16 +52,9 @@ const About = () => {
           <FadeIn delay={350}>
             <p className="text-lightGrey text-xl">
               I am a college first year from the Seattle area. You will often
-              find me exploring around Seattle area, shooting some hoops, or at
+              find me exploring around the Seattle area, shooting some hoops, or at
               my computer researching AI or Blockchain. My interests are in
               software development, web design/development, and digital art.
-              {/* Currently, I'm working on an NFT project,{" "}
-            <span className="text-urlLink underline">
-              <a href="cryptomegaleague.com" target="_blank">
-                Cryto Mega League
-              </a>
-            </span>
-            , that focuses on promoting the student communities within UW campus. */}
               <br></br> Little background about me. I'm half Vietnamese and
               Chinese but I was born and grew up in Vietnam. When I was 12, I
               moved to Washington State and have lived here ever since.<br></br>{" "}
