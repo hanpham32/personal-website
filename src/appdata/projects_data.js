@@ -16,7 +16,7 @@ export const items = [
   {
     src: imgPomodoro,
     alt: "pomodoro-web-cover",
-    desc: "A pomodoro clock designed with a minimalistic approach. Timer starts at 25 minute, then switches to a 5 minute for break time. ",
+    desc: "An application of pomodoro clock. Timer starts at 25 minute, then switches to a 5 minute for break time. ",
     tags: ["react"],
     demo: "https://hanpham32.github.io/pomodoro-react",
     source: "https://github.com/hanpham32/pomodoro-react",

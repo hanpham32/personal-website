@@ -1,5 +1,4 @@
 import React from "react";
-import Pdf from "../assets/Han's Resume.pdf";
 import { Link } from "react-router-dom";
 
 const Nav = ({toggle}) => {
@@ -33,9 +32,6 @@ const Nav = ({toggle}) => {
         <Link className="p-4 hover:text-milkyWhite" to="/about">
           About
         </Link>
-        {/* <a className="p-4 hover:text-milkyWhite" href={Pdf} target="_blank">
-          Resume
-        </a> */}
       </div>
     </nav>
   );

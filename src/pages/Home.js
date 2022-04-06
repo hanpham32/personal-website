@@ -17,7 +17,7 @@ const Home = () => {
           </FadeIn>
           <FadeIn delay={150}>
             <p className="text-lightGrey lg:text-2xl lg:leading-relaxed">
-              College first year from the University of Washington (Bothell). I
+              College first year from the University of Washington. I
               spend my freetime to stumble on many interest-driven projects.
               Follow my works below!
             </p>
