@@ -45,7 +45,7 @@ const About = () => {
           <FadeIn delay={350}>
             <p className="text-lightGrey text-xl">
               I am a college Sophomore from the Seattle area; currently studying
-              Computer Science & Software Engineering at the Univeresity of
+              Computer Science & Software Engineering at the University of
               Washington. You will often find me exploring around the Seattle
               area, shooting some hoops, or at my computer researching AI or
               Blockchain. My interests are in software & web development,
